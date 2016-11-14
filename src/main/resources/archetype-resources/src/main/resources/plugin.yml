@@ -2,7 +2,7 @@ main: ${groupId}.${artifactId}.${name}
 name: ${name}
 version: ${version}
 description: A bukkit plugin
-author: [Rayzr]
+authors: [Rayzr]
 #depend: [PerceiveCore]
 #commands:
 #  ${artifactId}:
