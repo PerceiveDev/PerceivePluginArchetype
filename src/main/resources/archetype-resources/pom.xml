@@ -19,9 +19,24 @@
 			<version>1.10.2-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+        <!-- ModuleName can be one of the following:
+                - Command
+                - Config
+                - CorePlugin
+                - GUI
+                - Language
+                - ModuleSystem
+                - NBT
+                - Packet
+                - Particle
+                - Reflection
+                - Updater
+                - Utilities
+            You can copy and paste the dependency declaration
+            to use multiple modules, just change the module name -->
 		<!-- <dependency>
 			<groupId>com.perceivedev</groupId>
-			<artifactId>PerceiveCore</artifactId>
+			<artifactId>ModuleName</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency> -->
